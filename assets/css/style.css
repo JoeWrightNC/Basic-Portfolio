@@ -81,8 +81,9 @@ a {
     background-image: url("assets/images/noise-background.png");
     background-color:lightgrey;
     width: 105%;
-    height: 600px;
+    height: 1100px;
     z-index: 0;
+    clear: both;
 }
 
 .content {
@@ -112,7 +113,7 @@ a {
 .connect {
     position: absolute;
     top: 60px;
-    right: 40px;
+    right: 70px;
     width: 270px;
     height: auto;
     text-align: center;
@@ -141,3 +142,95 @@ a {
     border-top: 7px solid #4aaaa5;
 }
 
+/* Starting Portfolio CSS */
+
+.hangman-image {
+    position:relative;
+    left: 40px;
+    text-align: center;
+    color: white;
+}
+
+.hangman-left {
+    position: absolute;
+    top: 115px;
+    width: 200px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #4aaaa5; 
+}
+
+.rpg-image {
+    position:relative;
+    left: 80px;
+    text-align: center;
+    color: white;
+}
+
+.textbar-rpg {
+    position: absolute;
+    top: 115px;
+    width: 200px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left:215px;
+    background-color: #4aaaa5; 
+}
+
+.trivia-image {
+    position:relative;
+    left: 40px;
+    top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.textbar-trivia {
+    position: absolute;
+    top: 305px;
+    width: 200px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #4aaaa5;
+} 
+
+.rutgers-image {
+    position:relative;
+    left: 80px;
+    top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.textbar-rutgers {
+    position: absolute;
+    top: 305px;
+    width: 200px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left:215px;
+    background-color: #4aaaa5; 
+}
+
+.rps-image {
+    position:relative;
+    left: 40px;
+    top: 80px;
+    text-align: center;
+    color: white;
+    margin-bottom: 600px;
+}
+
+.textbar-rps {
+    position: absolute;
+    top: 490px;
+    width: 200px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #4aaaa5;
+} 
