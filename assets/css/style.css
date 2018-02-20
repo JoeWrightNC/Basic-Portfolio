@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color:#777777;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,9 +17,9 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 75px;
     background-color: white;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #cccccc;
     text-align: center;
     vertical-align: text-bottom;
     z-index: 100;
@@ -27,10 +27,10 @@ a {
 
 .name-block {
     float: left;
-    margin-left: 90px;
+    margin-left: 30px;
     width: 300px;
     vertical-align: text-bottom;
-    height: 100px;
+    height: 75px;
     color: white;
     background-color:#4aaaa5;
 }
@@ -42,7 +42,7 @@ a {
 
 .nav-links {
     float: right;
-    margin-right: 100px;
+    margin-right: 40px;
     margin-top: 25px;
     color: darkslategray;
     background-color:white;
@@ -76,7 +76,7 @@ a {
 
 .main-section {
     position: relative;
-    top: 95px;
+    top: 65px;
     left: -15px;
     background-image: url("assets/images/noise-background.png");
     background-color:lightgrey;
@@ -88,28 +88,33 @@ a {
 .content {
     position: absolute;
     top: 60px;
-    left: 100px;
-    width: 45%;
-    height: 500px;
+    left: 60px;
+    width: 540px;
+    height: auto;
     background-color: white;
+    border: 5px solid #dddddd;
     z-index: 1;
     padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 75px;
 }
 
 .content img {
     float: left;
+    margin-right: 15px;
 }
 
-hr {
-    width: 90%;
+.content hr {
+    width: 100%;
 }
 
 .connect {
     position: absolute;
     top: 60px;
-    right: 100px;
-    width: 220px;
-    height: 120px;
+    right: 40px;
+    width: 270px;
+    height: auto;
     text-align: center;
     background-color: white;
     z-index: 1;
@@ -119,12 +124,16 @@ hr {
     float: left;
 }
 
+.connect hr {
+    width: 90%
+}
+
 .footer {
-    position: relative;
-    top: 95px;
-	left: -5px;
-	width: 100%;
-	padding: 3em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	padding: 2em;
 	text-align: center;
 	font-size: 0.8em;
 	color: #cccccc;
