@@ -113,16 +113,12 @@ a {
 .connect {
     position: absolute;
     top: 60px;
-    right: 70px;
+    right: 100px;
     width: 270px;
     height: auto;
     text-align: center;
     background-color: white;
     z-index: 1;
-}
-
-.connect li {
-    float: left;
 }
 
 .connect hr {
@@ -234,3 +230,35 @@ a {
     padding-bottom: 15px;
     background-color: #4aaaa5;
 } 
+
+/* being contact css */
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
