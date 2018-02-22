@@ -78,7 +78,7 @@ a {
     position: relative;
     top: 65px;
     left: -15px;
-    background-image: url("assets/images/noise-background.png");
+    background-image: url("assets/images/spiration-light.png");
     background-color:lightgrey;
     width: 105%;
     height: 1100px;
@@ -140,6 +140,7 @@ a {
 
 /* Starting Portfolio CSS */
 
+
 .hangman-image {
     position:relative;
     left: 40px;
@@ -147,7 +148,7 @@ a {
     color: white;
 }
 
-.hangman-left {
+.hangman-text {
     position: absolute;
     top: 115px;
     width: 200px;
@@ -164,7 +165,7 @@ a {
     color: white;
 }
 
-.textbar-rpg {
+.rpg-text {
     position: absolute;
     top: 115px;
     width: 200px;
@@ -183,7 +184,7 @@ a {
     color: white;
 }
 
-.textbar-trivia {
+.trivia-text {
     position: absolute;
     top: 305px;
     width: 200px;
@@ -201,7 +202,7 @@ a {
     color: white;
 }
 
-.textbar-rutgers {
+.rutgers-text {
     position: absolute;
     top: 305px;
     width: 200px;
@@ -221,7 +222,7 @@ a {
     margin-bottom: 600px;
 }
 
-.textbar-rps {
+.rps-text {
     position: absolute;
     top: 490px;
     width: 200px;
@@ -231,7 +232,9 @@ a {
     background-color: #4aaaa5;
 } 
 
-/* being contact css */
+
+
+/* begin contact css */
 
 input[type=text], select, textarea {
     width: 100%; 
