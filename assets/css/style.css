@@ -8,6 +8,21 @@ h1, h2, h3, h4, h5, h6 {
     color: #4aaaa5
 }
 
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    vertical-align: bottom;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: x-large;
+    text-align: center;
+    vertical-align: bottom;
+    font-weight: bold;
+}
+
 a {
 	text-decoration: none;
 }
@@ -78,10 +93,10 @@ a {
     position: relative;
     top: 65px;
     left: -15px;
-    background-image: url("assets/images/spiration-light.png");
+    background-image: url('../images/spiration-light.png');
     background-color:lightgrey;
     width: 105%;
-    height: 1100px;
+    height: 1000px;
     z-index: 0;
     clear: both;
 }
@@ -99,6 +114,7 @@ a {
     padding-right: 50px;
     padding-top: 25px;
     padding-bottom: 75px;
+    margin-right: 30px;
 }
 
 .content img {
@@ -118,6 +134,8 @@ a {
     height: auto;
     text-align: center;
     background-color: white;
+    border: 5px solid #dddddd;
+    padding: 30px 5px;
     z-index: 1;
 }
 
@@ -140,6 +158,10 @@ a {
 
 /* Starting Portfolio CSS */
 
+
+.port-wrapper {
+    position: relative;
+}
 
 .hangman-image {
     position:relative;
